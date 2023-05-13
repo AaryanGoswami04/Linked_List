@@ -45,9 +45,9 @@ void insertAt(int val, int pos){
   }
   
   int idx=1;
-  Node* temp=NULL;
+  Node* temp=head;
   
-  while(idx != pos){
+  while(idx != pos-1){
     temp=temp->next;
     idx++;
   }
